@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Hack Spots</title>
+		<title>Temple Crimes</title>
 		<script type="text/javascript" src="js/ICanHaz.js"></script>
 		<script type="text/javascript" src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
 		<script type="text/javascript" src='js/jquery.js '></script>
@@ -20,10 +20,10 @@
 	</head>
 <body>
 	<div id="wrapper">
-		<h1>Hack Spots</h1>
+		<h1>Temple Crimes</h1>
 		<div>
 			<ul class="nav">
-				<li><strong>The collected favorites of those who hack</strong></li>
+				<li><strong>Crimes commited on Temple's Campus</strong></li>
 				<li><a href="#info">INFO</a> -</li>
 				<li><a href="http://jlord.github.com/sheetsee.js" target="_blank">POWERED BY SHEETSEE.JS</a> -</li>
 				<li><a href="http://www.github.com/jlord/hack-spots" target="_blank">GITHUB</a> -</li>
@@ -75,17 +75,15 @@
 				<p class="colorText">{{address}}<p>
 				<p class="colorText">{{city}}, {{state}} {{#postcode}}, {{postcode}} {{/postcode}}</p>
 				<ul>
-			  	<li><span class="category">Wifi:</span> {{wifipassword}}</li>
-			  	<li><span class="category">Outlets:</span> {{outlets}}</li>
-			  	<li><span class="category">Couch:</span> {{couch}}</li>
-			  	<li><span class="category">Large Table:</span> {{largetable}}</li>
-			  	<li><span class="category">Outdoor Seating:</span> {{outdoorseating}}</li>
-			  	<li><span class="category">Brewing:</span> {{brewing}}</li>
-			  	<li><span class="category">Contributed By:</span> <a href="http://www.twitter.com/{{contributerstwitter}}" target="_blank">@{{contributerstwitter}}</a></li>
+			  	<li><span class="category">Disposition:</span> {{wifipassword}}</li>
+			  	<li><span class="category">Reported:</span> {{outlets}}</li>
+			  	<li><span class="category">Occured:</span> {{couch}}</li>
+			  	
+			  
 		  	</ul>
 		  	<ul>
 		  		<li><a href="https://maps.google.com/maps?q={{address}},{{city}},{{state}}" target="_blank">View in Google Maps</a></li>
-		  		<li><a href="http://www.yelp.com/search?find_desc={{name}}&find_loc={{city}},{{state}}" target="_blank">Find on Yelp</a></li>
+		  		
 		  	</ul>
 		  {{/rows}}
 	</script>
@@ -105,16 +103,14 @@
 			<p class="colorText">{{address}}<p>
 			<p class="colorText">{{city}}, {{state}} {{#postcode}}, {{postcode}} {{/postcode}}</p>
 			<ul>
-		  	<li><span class="category">Wifi:</span> {{wifipassword}}</li>
-		  	<li><span class="category">Outlets:</span> {{outlets}}</li>
-		  	<li><span class="category">Couch:</span> {{couch}}</li>
-		  	<li><span class="category">Large Table:</span> {{largetable}}</li>
-		  	<li><span class="category">Outdoor Seating:</span> {{outdoorseating}}</li>
-		  	<li><span class="category">Brewing:</span> {{brewing}}</li>
+		  	<li><span class="category">Disposition:</span> {{wifipassword}}</li>
+		  	<li><span class="category">Reported:</span> {{outlets}}</li>
+		  	<li><span class="category">Occured:</span> {{couch}}</li>
+		  	
 	  	</ul>
 	  	<ul>
 	  		<li><a href="https://maps.google.com/maps?q={{address}},{{city}},{{state}}" target="_blank">View in Google Maps</a></li>
-	  		<li><a href="http://www.yelp.com/search?find_desc={{name}}&find_loc={{city}},{{state}}" target="_blank">Find on Yelp</a></li>
+	  	
 	  	</ul>
 	  {{/rows}}
 	</script>
