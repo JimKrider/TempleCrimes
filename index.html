@@ -191,7 +191,7 @@
 			function addPopups(map, markerLayer) {
 				markerLayer.eachLayer(function(marker) {
 					var popupContent = ich.popUps(marker.feature.opts)
-					marker.bindPopup(popupContent, {closeButton: false,})
+					marker.bindPopup(popupContent, {closeButton: true,})
 				})
 			  markerLayer.on('click', function(e) {
 			  // clear any selected rows
